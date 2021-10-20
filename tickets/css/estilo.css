@@ -1,0 +1,177 @@
+/*NAVBAR*/
+
+.navbar-brand{
+    padding: 5px 0;
+
+}
+
+
+
+/*CUADRADOS*/
+
+#cuadrados{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top:30px;
+           
+}
+
+.row{
+max-width: 100%;
+display: flex;
+flex-wrap: nowrap !important;
+    
+    
+}
+
+.col-md-4{
+flex-flow: row nowrap;    
+width: 175px;
+height:175px;
+margin:5px;
+text-align: center;
+line-height: 35px;
+padding: 1em;
+
+
+}
+h4{
+    font-weight: bolder;
+}
+
+.negrita{
+    font-weight: bolder;
+}
+
+.grisado{
+   color: gray;
+  
+
+}
+#azul{   
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 119, 255);
+    
+}
+
+
+#verde{    
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(21, 167, 21);
+}
+
+
+#amarillo{  
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(199, 186, 1);
+}
+
+
+
+
+/*TEXTO 1*/
+
+.texto1{
+    padding:1px 1px;
+    text-align: center;
+    
+}
+
+.textonegrita{
+   font-size: xx-large;
+   font-weight: 600;
+}
+
+/*FORMULARIO*/
+
+#formulario{
+    max-width:49%;
+    margin-left:420px;
+    
+    }
+
+ .alert{
+     margin-right:22px;
+ }  
+
+
+.btn-form{
+    width: 337px;
+    height:40px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border:0;
+    color:white;
+    padding:3px;
+
+
+}
+
+
+/*FOOTER*/
+
+
+ul {
+
+    list-style-type: none;
+    }
+    
+    #pie{
+    max-width: 100%;
+    max-height: 80px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: linear-gradient(to right, rgb(10, 36, 53), rgb(26, 83, 121));
+    margin:auto;
+    
+    }
+    
+    
+    .pie-lista{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items:center;
+        margin-left: 125px;
+        margin-right: 125px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+           
+    }
+    
+    
+    
+    
+    .pie-item{
+        display:flex;
+        flex:none;
+        width: 10em;
+        color:white;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top:5px;
+        
+    }
+    
+    
+    
+    #preguntasfrec{
+        flex-wrap: wrap;
+    }
+    
+
+
+
+
+

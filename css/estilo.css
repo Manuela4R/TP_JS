@@ -1,0 +1,175 @@
+/*NAVBAR*/
+
+.navbar-brand{
+    padding: 5px 0;
+
+}
+
+/*Carousel 1*/
+
+
+
+.carousel-inner> .carousel-item> img {
+    position:relative;
+    width: 100%; 
+    height: 600px; 
+    opacity:0.6;
+
+  
+  }
+.carousel-item{
+    background-color: black;
+}
+
+
+.texto-slide{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    bottom: 50%;
+    right:10%;
+    transform: translateY(-50%);
+    color:white;  
+    text-align: right; 
+    
+}
+
+
+/*TEXTO 1*/
+.texto1{
+    padding:1px 1px;
+    text-align: center;
+    
+}
+
+.textonegrita{
+   font-size: xx-large;
+   font-weight: 500;
+}
+
+
+/* 3 CARDS*/
+
+#container3cards{
+    max-width: 60%;
+   
+    
+  
+}
+
+/*CAROUSEL+TEXTO*/
+
+.car-tex{
+
+    max-width: 100%;
+    display:flex;
+
+
+
+}
+
+#card-texto{
+display:inline-block;
+background-color:rgb(51, 51, 51);
+color:white;
+}
+
+
+/*FORMULARIO*/
+
+#formulario{
+max-width:55%;
+
+}
+
+.titulo-form{
+    text-align:center;
+}
+
+.titulo-link{
+    color:black;
+    border-bottom:3px dotted #000;
+    text-decoration:none;
+}
+
+.subtitulo{
+font-size: smaller;
+
+}
+
+.btn-form{
+   
+   background-color: yellowgreen;
+   border-radius: 5px;
+   border:0;
+   color:white;
+   padding:3px;
+   
+
+}
+.d-grid{
+  display: flex;
+  margin-top: 15px;
+ 
+}
+
+
+
+/*FOOTER*/
+
+
+ul {
+
+list-style-type: none;
+}
+
+#pie{
+max-width: 100%;
+max-height: 80px;
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+background: linear-gradient(to right, rgb(10, 36, 53), rgb(26, 83, 121));
+margin:auto;
+
+}
+
+
+.pie-lista{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+       
+}
+
+
+
+
+.pie-item{
+    display:flex;
+    flex:none;
+    width: 10em;
+    color:white;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top:5px;
+    
+}
+
+
+
+#preguntasfrec{
+    flex-wrap: wrap;
+}
+
+
+
+
